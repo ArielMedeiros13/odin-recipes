@@ -2,26 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ariel's Book of Recipes</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container{
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .avatar{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #eee;
+      margin-bottom: 20px;
+    }
+
+    h1{
+      margin-bottom: 10px;
+    }
+
+    .subtitle{
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+
+    li{
+      margin: 12px 0;
+    }
+
+    a{
+      text-decoration: none;
+      font-size: 18px;
+      color: #2b6cff;
+      font-weight: bold;
+    }
+
+    a:hover{
+      text-decoration: underline;
+    }
+
+    footer{
+      margin-top: 40px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Ariel's Book of Recipes</h1>
-  <p><strong>Terrible cooker, amazing dev.</strong></p>
 
-  <h2>Pick your poison:</h2>
+  <div class="container">
 
-  <ul>
-    <li><a href="recipes/lasagna.html">Lasagna al Garfield</a></li>
-    <li><a href="recipes/pizza.html">Lazy Pizza</a></li>
-    <li><a href="recipes/cookies.html">Not an Italian Cookie</a></li>
-  </ul>
+    <img src="assets/ariel.jpg" alt="Ariel Medeiros" class="avatar">
 
-  <hr>
+    <h1>Ariel's Book of Recipes</h1>
 
-  <p>
-    <em>Built for The Odin Project. Fueled by laziness and links.</em>
-  </p>
+    <p class="subtitle">
+      Terrible cooker, amazing dev.<br>
+      Learning web development one lazy dish at a time.
+    </p>
+
+    <h2>Pick your poison:</h2>
+
+    <ul>
+      <li><a href="recipes/lasagna.html">🍝 Lasagna al Garfield</a></li>
+      <li><a href="recipes/pizza.html">🍕 Lazy Pizza</a></li>
+      <li><a href="recipes/cookies.html">🍪 Not an Italian Cookie</a></li>
+    </ul>
+
+    <footer>
+      Built for The Odin Project • Powered by curiosity and caffeine
+    </footer>
+
+  </div>
+
 </body>
 </html>
